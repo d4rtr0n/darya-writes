@@ -9,7 +9,7 @@ nav{
 	background-color: #30303a;
 	width: 100%;
 	position: fixed;
-	width: 100%; 
+	z-index: 99;
 }
 
 ul{
@@ -24,7 +24,6 @@ ul li{
 
 ul li a{
 	color: white;
-	text-decoration: none;
 }
 
 ul li a:hover{
@@ -38,6 +37,7 @@ ul li a:hover{
 }
 
 .grid2{
+	margin-bottom: 100px;
 	border: 3px solid black;
 }
 
