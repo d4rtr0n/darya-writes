@@ -1,3 +1,7 @@
+* {
+	font-family: 'Capriola', sans-serif;
+}
+
 /*contentwrapper will ensure that everything is centered on the page, working on other page but not on service page, can't figure out why ????*/
 #content-wrapper{
 	width: 1200px;
@@ -34,72 +38,15 @@ ul li a:hover{
 
 /* ----footer---- */
 
-.footer{
-	background-color:#30303a;
-	display:block;
-	margin:0 auto;
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    background-color: #30303a;
 }
 
-.column-footer2 img{
-	max-width: 150px;
-	display:block;
-	margin:auto;
-}
-
-.column-footer{
-	width: 25%;
-	float: left;
-	margin-left: 5%;
-	padding-top: 20px;
-	padding-bottom: 20px;
-}
-
-.column-footer1{
-	width: 30%;
-	float: left;
-	padding-top: 20px;
-	padding-bottom: 20px;
-	text-align: right;
-	padding-top: 40px;
-}
-
-.column-footer2{
-	width: 30%;
-	float: left;
-	padding-top: 21px;
-	padding-bottom: 20px;
-	margin:auto;
-}
-
-.column-footer3{
-	width: 30%;
-	float: left;
-	padding-bottom: 20px;
-	padding-left: 20px;
-	text-align: right;
-	color: white;
-	text-align: left;
-	border-left: solid 3px #8B5AE5;
-	margin-top: 50px;
-}
-
-.column-footer p{
-	padding-top: 30px;
-	border-left: solid 3px #8B5AE5;
-}
-
-.column-footer1 a{
-	color: white;
- 	text-decoration: none;
-}
-.column-footer1 a:hover{
-	color: #8B5AE5;
- 	text-decoration: none;
-}
-
-.section-footer{
-	background-color: #30303a;
-	padding-bottom: 200px;
-	display:block;
-	margin:auto;
+.ftr {
+	color: #c673e3;
+	padding: 20px;
 }
