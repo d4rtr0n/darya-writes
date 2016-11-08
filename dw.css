@@ -61,3 +61,7 @@ ul li a:hover{
 	color: white;
 	padding: 15px;
 }
+
+.ftr-icons {
+	align-content: right;
+}
