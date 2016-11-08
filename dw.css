@@ -52,8 +52,21 @@ ul li a:hover {
 	margin-bottom: 100px;
 }
 
-.blog-post-main{
-	border: 3px solid black;
+.blog-post-left a {
+	color: #8B5AE5;
+	text-decoration: none;
+}
+
+.blog-post-right a {
+	color: #8B5AE5;
+	text-decoration: none;
+}
+.blog-post-right img {
+	float: right;
+}
+
+.blog-post-left img {
+	float: left;
 }
 
 .img-rounded {
