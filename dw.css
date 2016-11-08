@@ -49,6 +49,7 @@ ul li a:hover{
 }
 /* ----footer---- */
 
+
 .footer {
     position: fixed;
     bottom: 0;
@@ -62,6 +63,14 @@ ul li a:hover{
 	padding: 15px;
 }
 
-.ftr-icons {
-	align-content: right;
+
+#mc_embed_signup {
+	background: #fff; 
+	clear: left; 
+	font: 14px; 
+}
+
+.sb {
+	align-content: center;
+	padding: 20px;
 }
