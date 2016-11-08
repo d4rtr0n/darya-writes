@@ -12,21 +12,21 @@ nav{
 	z-index: 99;
 }
 
-ul{
+ul {
 	list-style-type: none;
 	text-align: right;
 }
 
-ul li{
+ul li {
 	display: inline;
 	margin-right: 50px;
  }
 
-ul li a{
+ul li a {
 	color: white;
 }
 
-ul li a:hover{
+ul li a:hover {
 	color: #8B5AE5;
 }
 
@@ -47,8 +47,20 @@ ul li a:hover{
 .blog-post-main{
 	border: 3px solid black;
 }
-/* ----footer---- */
 
+
+/* ----sidebar---- */
+
+.sb-padded {
+	padding-top: 10px;
+}
+
+.list ul li {
+	list-style-type: none; 
+	text-align: center;
+}
+
+/* ----footer---- */
 
 .footer {
     position: fixed;
@@ -64,12 +76,9 @@ ul li a:hover{
 }
 
 
+/* ----for mailchimp form---- */
 #mc_embed_signup {
 	background: #fff; 
 	clear: left; 
 	font: 14px; 
-}
-
-.sb-padded {
-	padding-top: 10px;
 }
