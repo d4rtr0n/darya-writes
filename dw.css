@@ -48,6 +48,10 @@ ul li a:hover {
 	border: 3px solid black;
 }
 
+.img-rounded img {
+	float: left;
+}
+
 
 /* ----sidebar---- */
 
@@ -77,3 +81,4 @@ ul li a:hover {
 	clear: left; 
 	font: 14px; 
 }
+
