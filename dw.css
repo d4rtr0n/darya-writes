@@ -38,6 +38,15 @@ ul li a:hover {
 	border: 3px solid black;
 }
 
+.grid1 a {
+	color: #8B5AE5;
+	text-decoration: none;
+}
+
+.grid1 a:hover {
+	color: #8B5AE5;
+}
+
 .grid2{
 	padding: 10px;
 	margin-bottom: 100px;
