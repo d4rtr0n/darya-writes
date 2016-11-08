@@ -70,7 +70,6 @@ ul li a:hover{
 	font: 14px; 
 }
 
-.sb {
-	align-content: center;
-	padding: 20px;
+.sb-padded {
+	padding-top: 10px;
 }
